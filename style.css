@@ -68,9 +68,8 @@ h1 {
   font-weight: var(--fw-header);
 }
 main.wrapper {
-  max-width: 1440px;
   width: 100%;
-  min-height: 90vh;
+  height: 100%;
   background-image: url(images/pattern-background-mobile.svg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -108,15 +107,13 @@ section.card p {
   width: 85%;
   background-color: var(--clr-very-pale-blue);
   display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
   align-items: center;
   padding: 0.9rem 1rem;
   border-radius: 5px;
   margin-bottom: 1rem;
 }
 .price-bar div {
-  margin-left: -3rem;
+  margin-left: 1rem;
 }
 .pb-name {
   display: inline-block;
@@ -125,6 +122,9 @@ section.card p {
 .pb-cost {
   display: inline-block;
   color: var(--clr-desaturated-blue);
+}
+.price-bar a.offset {
+  margin-left: auto;
 }
 .price-bar a:hover {
   text-decoration: none;
@@ -168,6 +168,7 @@ footer.attribution {
 @media (min-width: 575px) {
   main.wrapper {
   background-image: url(images/pattern-background-desktop.svg);
+  background-position: top;
   }
 }
 
