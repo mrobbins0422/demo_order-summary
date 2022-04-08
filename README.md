@@ -24,5 +24,5 @@ No - Button element - perform actions on the same page (modals, pop-ups, etc.).
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
-[My Solution](https://mrobbins0422.github.io/demo_order-summary)
+[My Solution](https://mrobbins0422.github.io/demo_order-summary/)  
 
