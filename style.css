@@ -48,7 +48,7 @@ html {
   margin: 0;
 }
 body {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -96,7 +96,8 @@ img.banner {
   border-radius: 0.75rem 0.75rem 0 0;
 }
 h1 {
-  padding: 1.75rem 0 1.25rem 0;
+/*   padding: 1.75rem 0 1.25rem 0; */
+  margin: 1.75rem 0 1.25rem 0;
 }
 section.card p {
   max-width: 80%;
@@ -130,12 +131,13 @@ section.card p {
   text-decoration: none;
 }
 button {
-  width: 87%;
+  width: 85%;
   font-size: var(--fs-body);
   font-weight: var(--fw-medium);
   color: var(--clr-light);
   background-color: var(--clr-bright-blue);
   padding: 1rem 1rem;
+  border: 0;
   border-radius: 0.5rem;
   margin-bottom: 1.5rem;
   box-shadow: 0px 16px 9px 5px var(--clr-pale-blue);
